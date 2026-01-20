@@ -1,0 +1,68 @@
+/* Overall */
+*{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    /* make a custom background image that has the text above that says: "World Wonders of the ancient world." white text also add blur*/
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.imgur.com/lsmVV6h.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Text */
+a{
+    color: black;
+}
+/* Containers */
+nav{
+    background-color: rgb(222, 213, 181);
+    text-align: left;
+    padding: 10px;
+}
+footer{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(179, 171, 145);
+    padding: 10px 0px;
+    margin-top: 25px;
+}
+.mainDiv{
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    border: 5px solid rgb(164, 144, 92);
+    border-radius: 5px;
+    background-color: rgb(210, 182, 111);
+}
+.mainDiv > a > img{
+    height: auto;
+    max-height: 275px;
+    min-height: 2px;
+    width: 500px;
+    border-radius: 20px;
+}
+.mainDiv > a{
+    margin: 50px;
+}
+.upperDiv{
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(210, 182, 111);
+    max-width: fit-content;
+}
+.upperDiv > h1{
+    margin: 15px 0px;
+    padding: 10px;
+}
+/* Placeholder solution */
+.logoNav{
+    font-size: 50px;
+    padding: 50px;
+}
+/* Animation */
+
+/* <!-- INFO: format empty bg with one color of the image, cut --> */
