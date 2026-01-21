@@ -27,7 +27,7 @@ footer{
     font-weight: bold;
     background-color: rgb(210, 182, 111);
     padding: 10px 0px;
-    margin-top: 140px;
+    margin-top: 25px;
 }
 .mainDiv{
     max-width: 1500px;
@@ -65,32 +65,24 @@ a > img:hover{
     border-radius: 5px;
 }
 .infoDiv{
+    height: 1000px;
     max-width: 1500px;
     margin: auto;
     border: 5px solid rgb(164, 144, 92);
     border-radius: 5px;
     background-image: url(https://imgur.com/zdKCrLs.png);
 }
-.infoDiv > div{
-    margin: auto;
-    max-width: 1000px;
-    padding-bottom: 20px;
-}
 .infoDiv > div > p{
-    text-align: left;
+    margin: 20px;
+    max-width: 850px;
 }
 .infoDiv > div > img{
     height: auto;
     width: 500px;
     margin: 20px;
     border-radius: 20px;
-    border: 3px solid rgb(164, 144, 92);
-}
-.infoDiv > div > a{
-    border: 3px solid rgb(164, 144, 92);
-    background-color: rgba(0, 0, 0, 0.192);
-    border-radius: 20px;
-    padding: 10px 35px;
+    border: 3px solid black;
+    float: right;
 }
 /* Placeholder solution */
 .logoNav{
